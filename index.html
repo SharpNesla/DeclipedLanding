@@ -1,10 +1,23 @@
-<!doctype html>
-<html>
+<!doctype html >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="Decliped is a modern multi-genre music label specializing in the release of trending music and engaged
+         in its comprehensive promotion on current platforms."/>
+  <meta property="og:type" content="business.business">
+  <meta property="og:title" content="Decliped Music Label">
+  <meta property="og:description"
+        content="Decliped is a modern multi-genre music label specializing in the release of trending music and engaged in its comprehensive promotion on current platforms.">
+  <meta property="og:url" content="https://decliped.com">
+  <meta property="og:image" content="https://decliped.com/opengraph.png">
+  <meta property="og:site_name" content="Decliped music label">
+  <meta property="og:locale" content="en_US">
+  <meta name="keywords" content="decliped, music, label, record, phonk, release">
+  <title>Decliped Music Label</title>
+  
   <script src="https://cdn.tailwindcss.com"></script>
-  <title>Decliped music label</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;800&display=swap" rel="stylesheet">
@@ -21,71 +34,94 @@
       }
 
       #shadow {
-          box-shadow: 0px 0px 700px 300px rgba(123, 71, 255, 0.1);
+          box-shadow: 0 0 700px 300px rgba(123, 71, 255, 0.1);
 
       }
   </style>
 
 </head>
-<body class="text-white">
-<main class="w-screen min-h-screen p-12 flex items-center justify-center bg-cover bg-center bg-cover"
-      style="background-image: url('Rectangle 81.png')">
+<body class="text-white bg-neutral-900">
+<main class="w-screen min-h-screen p-12 flex items-center justify-center bg-cover bg-center"
+      style="background-image: url('public/images/background.webp');
+             background-image: image-set(url('public/images/background.webp') 1x, url('public/images/background.png') 1x)
+">
   <section id="container"
            class="flex flex-col my-36 lg:my-0 lg:grid grid-cols-2 w-full gap-16 items-stretch justify-center max-w-[120rem]">
     <div id="shadow" class="absolute m-auto max-w-[100rem] top-0 bottom-0 left-0 right-0 h-[0.000px]"></div>
-    <div class="flex flex-col gap-6 justify-between z-10">
-      <div class="text-7xl">
+    <div class="flex flex-col gap-12 justify-between z-10">
+      <h1 class="text-7xl">
         Become a famous artist with Decliped
-      </div>
+      </h1>
       <article class="font-light text-3xl">
-        We will reveal your potential, allow you to be heard and help you monetize your creativity.
+        We will reveal your potential and allow you to be heard and help you monetize your creativity.
       </article>
+      <div class="flex-1"></div>
       <button id="send-demo-button"
-              class="text-3xl bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl px-10 lg:w-96 py-6">
+              class="text-3xl transition ease-in-out
+              hover:from-blue-500
+              hover:to-purple-500
+             bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl px-10 lg:w-96 py-6">
         Send demo
       </button>
       <div id="demo-email"
-              class="text-3xl text-center bg-gradient-to-r hidden from-blue-600 to-purple-600 rounded-xl px-10 lg:w-96 py-6">
+           class="text-3xl text-center bg-gradient-to-r hidden from-blue-600 to-purple-600
+            rounded-xl px-10 lg:w-96 py-6">
         demo@decliped.com
       </div>
     </div>
     <div class="grid gap-8 grid-cols-2 grid-rows-2 z-10">
-      <div class="p-6 sm:p-12 bg-white/5 rounded-xl backdrop-blur border-white/25 border text-center">
+      <div class="p-6 py-16 sm:px-12 bg-white/5 hover:bg-white/20 transition ease-in-out
+       rounded-xl backdrop-blur border-white/25 border text-center">
         <p class="font-extrabold text-4xl sm:text-6xl">
           200+
         </p>
-        <p class="text-xl">
+        <p class="text-3xl">
           artists trust us<br>with their music
         </p>
       </div>
-      <div class="p-6 sm:p-12 bg-white/5 rounded-xl backdrop-blur border-white/25 border text-center">
+      <div class="p-6 py-16 sm:px-12 bg-white/5 hover:bg-white/20 transition ease-in-out
+       rounded-xl backdrop-blur border-white/25 border text-center">
         <p class="font-extrabold text-4xl sm:text-6xl">
           HQ Promo
         </p>
-        <p class="text-xl">
-          for every<br>release
+        <p class="text-3xl">
+          for every <br class="sm:hidden">release
         </p>
       </div>
-      <div class="p-6 sm:p-12 bg-white/5 rounded-xl backdrop-blur border-white/25 border text-center">
+      <div class="p-6 py-16 sm:px-12 bg-white/5 hover:bg-white/20 transition ease-in-out
+       rounded-xl backdrop-blur border-white/25 border text-center">
         <p class="font-extrabold text-4xl sm:text-6xl">
           10+ years
         </p>
-        <p class="text-xl">
+        <p class="text-3xl">
           in the music industry
         </p>
       </div>
-      <div class="p-6 sm:p-12 bg-white/5 rounded-xl backdrop-blur border-white/25 border text-center">
+      <div class="p-6 py-16 sm:px-12 bg-white/5 hover:bg-white/20 transition ease-in-out
+       rounded-xl backdrop-blur border-white/25 border text-center">
         <p class="font-extrabold text-4xl sm:text-6xl">
           A team
         </p>
-        <p class="text-xl">
+        <p class="text-3xl">
           of real professionals
         </p>
       </div>
     </div>
   </section>
 </main>
-
+<script type='application/ld+json'>
+  {
+    "@context": "http://www.schema.org",
+    "@type": "Organization",
+    "name": "Decliped",
+    "url": "https://decliped.com",
+    "sameAs": [
+      ""
+    ],
+    "logo": "https://decliped.com/opengraph.png",
+    "description": "Decliped is a modern multi-genre music label specializing in the release of trending music and engaged in its comprehensive promotion on current platforms."
+  }
+</script>
 <script>
   const button = document.getElementById('send-demo-button')
   button.onclick = function () {
